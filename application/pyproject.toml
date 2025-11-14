@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=41"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glaenzls_diffusion2d"
+version="0.0.2"
+authors = [
+    {name = "Louis Glänzer", email = "st174015@stud.uni-stuttgart.de"},
+]
+dependencies = [
+    "numpy", "matplotlib"
+]
+description = "2D thermal diffusion solver"
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["diffusion", "thermal"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/Simulation-Software-Engineering/diffusion2d"
